@@ -7,7 +7,6 @@ from binairo_solver.strategy import (
 
 
 class TestNoThreeInARowStrategy:
-
     def test_1_empty(self):
         vec = CellVector.from_states(
             [

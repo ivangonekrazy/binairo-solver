@@ -3,7 +3,6 @@ from binairo_solver.solver import solve
 
 
 class TestSolverFillUsingStrategies:
-
     def test_solver(self):
         board = Board.from_text_map(
             """
@@ -45,7 +44,6 @@ class TestSolverFillUsingStrategies:
 
 
 class TestSolverSolve:
-
     def test_hard_solve(self):
         board = Board.from_text_map(
             """

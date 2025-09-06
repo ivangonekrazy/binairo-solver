@@ -3,7 +3,6 @@ from binairo_solver.constraint import equal_number_of_states, no_three_in_a_row
 
 
 class TestConstraintBoard:
-
     def test_meets_constraint(self):
         board = Board.from_text_map(
             """
@@ -34,7 +33,6 @@ class TestConstraintBoard:
 
 
 class TestConstraintNoThreeInARow:
-
     def test_no_three_in_a_row(self):
         vec = CellVector.from_states(
             [
@@ -76,7 +74,6 @@ class TestConstraintNoThreeInARow:
 
 
 class TestConstraintEqualNumberOfStates:
-
     def test_equal_number_of_states(self):
         vec = CellVector.from_states(
             [

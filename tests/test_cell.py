@@ -2,7 +2,6 @@ from binairo_solver.board import Cell, CellState, CellVector
 
 
 class TestCellVector:
-
     def test_fill_empty(self):
         vec = CellVector.from_states(
             [

@@ -5,7 +5,6 @@ from binairo_solver.error import BoardBoundaryError, BoardConstraintError
 
 
 class TestBoard:
-
     def test_new_board(self):
         board = Board(4)
         assert board.size == 4
@@ -69,7 +68,6 @@ class TestBoard:
         )
 
     def test_from_text_instructions(self):
-
         # note that we're testing a 4x4 board here
         # with mixed case letters for states
         board = Board.from_text_instructions(
@@ -92,7 +90,6 @@ class TestBoard:
         assert str(board.get_row(3)) == "___o"
 
     def test_from_text_map(self):
-
         board = Board.from_text_map(
             """
             *o*o
