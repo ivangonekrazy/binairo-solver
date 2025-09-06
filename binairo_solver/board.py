@@ -83,7 +83,7 @@ class Board:
     def from_text_map(cls, text: str) -> "Board":
         """this is the inverse of the __str__ method"""
 
-        lines = [l.strip() for l in text.strip().split("\n")]
+        lines = [line.strip() for line in text.strip().split("\n")]
 
         size = len(lines[0].strip())
         board = cls(size)

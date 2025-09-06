@@ -1,5 +1,3 @@
-from textwrap import dedent
-
 from binairo_solver.board import Board
 from binairo_solver.solver import solve
 

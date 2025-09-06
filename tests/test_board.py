@@ -1,5 +1,3 @@
-from textwrap import dedent
-
 import pytest
 
 from binairo_solver.board import Board, CellState, CellVector

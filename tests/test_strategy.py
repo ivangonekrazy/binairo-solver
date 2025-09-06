@@ -1,4 +1,4 @@
-from binairo_solver.board import Cell, CellState, CellVector
+from binairo_solver.board import CellState, CellVector
 from binairo_solver.strategy import (
     equal_number_of_states,
     fill_in_between,

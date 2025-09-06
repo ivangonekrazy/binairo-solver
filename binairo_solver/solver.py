@@ -29,7 +29,7 @@ def solve(board: Board) -> Board | None:
 def apply_strategies_to_board(board: Board) -> None:
     board_states: set[str] = set()
 
-    while not (board_state := hash(str(board))) in board_states:
+    while (board_state := hash(str(board))) not in board_states:
         board_states.add(board_state)
 
         for row_cellvector in board.rows():
